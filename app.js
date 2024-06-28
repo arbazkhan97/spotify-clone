@@ -15,7 +15,7 @@ btn.addEventListener("click",function(){
 
     listItem.classList.add("styleList");
 
-    // for delete task logic
+    // for delete task logic g
 
 let delBtn=document.createElement("button");
 delBtn.innerText="Delete";
