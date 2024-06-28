@@ -1,380 +1,63 @@
-body{
-    font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto', sans-serif;
-color: #fff;
-    background-color: black;
-    margin: 0;
-    overflow: hidden;
-}
-.container{
-    display: flex;
-    height: 100vh;
-    
-}
-
-.sidebar{
-width: 280px;
-background-color: #000;
-border-radius: 1rem;
-
-}
-.sidebar-icons{
-    width: 16rem;
-    height: 80px;
-    background-color: #121212;
-    border-radius: 1rem;
-    padding: 0.5rem  0.75rem ;
-    display: flex;
-    flex-direction: column;
-    line-height: 2.5rem;
-    justify-content: center;   
-}
-
-a{
-    text-decoration: none;
-    color: #fff;
-    margin: 0.8rem;
-    font-size: 16px;
-}
-
-.home i {
-    font-size: 22px;
-    opacity: 1;
-}
-.home a{
-    opacity: 1;
-}
-
-.search i{
-    font-size: 24px;   
-}
-
-.search{
-    opacity: 0.75;
-}
-
-.search:hover{
-    opacity: 1;
-}
-
-.library{
-    width: 16rem;
-    height: 100%;
-    background-color: #121212;
-    border-radius: 1rem;
-    padding: 0.5rem  0.75rem ;
-    margin-top: 0.5rem;
-    justify-content: space-between;   
-}
-
-.library-system{
-    display: flex;
-    position: relative;
-    bottom: 0.75rem;
-}
-
-.library-icons{
-    width: 8.5rem;
-    height: 2.5rem;
-}
-
-.library-icons img{
-    height: 24px;
-    width: 24px;
-}
-
-.library-icons img , a{
-    opacity: 0.75;
-}
-
-.library-icons img , a:hover{
-    opacity: 1;
-}
-
-.library-symbol {
-    width: 8.5rem;
-    height: 2.5rem;
-    display: flex; 
-    align-items: center;  
-}
-
-.library-symbol i{
-    align-items: center;
-    font-size: 1.5rem;
-    opacity: 0.70;
-    margin: 1rem;
-}
-
-.library-symbol i:hover{
-    opacity: 1;
-}
-
-#image{
-    opacity: 0.75;
-}
-
-#image:hover{
-    opacity: 1;
-}
-
-.library-box1{
-  height: 6rem;  
-background-color: #242424;
-padding: 1rem 0rem 1rem 1rem;
-border-radius: 1rem;
-margin-top: 0.5rem;
-position: relative;
-bottom: 0.75rem;
-}
-
-span p{
-    font-size: 14px;
-    opacity: 0.75;
-}
-.library-btn{
-    border-radius: 100px;
-    margin-top: 0.5rem;
-    font-weight: 700px;
-    padding: 0.25rem 1rem ;
-    height: 2rem;
-    border: none;
-    width: fit-content;
-    
-}
-
-.span1{
-    font-weight: 900;
-}
-
-.main-content{
-    background-color: #000;
-    flex: 1;
-    border-radius: 1rem;
-    overflow:auto;
-    margin: 0 1.5rem 0 1.5rem;
-}
-
-.navbar{
-position: sticky;
-top: 0;
-display: flex;
-justify-content: space-between;
-background-color: #121212;
-z-index: 20;
-}
-.navbar-icons{
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
-    margin-top: 0.75rem;
-    margin-left: 0.75rem;
-    
-}
-.navbar-icons img{
-    height: 2rem;
-    width: 2rem;
-}
-
-
-.navbar-btn{
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0.75rem;
-    margin-right: 0.5rem;    
-}
-
-.navbar-btn button{
-    margin-right: 1rem;
-}
-.navbar-btn i{
-    margin-right: 0.5rem;
-}
-
-    
-#nav-btn2{
-    background-color: #000;
-    
-    color: #fff;
-}
-button i:hover{
-    font-size: 14px;
-}
-
-@media (max-width: 722px){
-.hide{
-    display: none;
-}
-}
-
-
-.card{
-    width: 150PX;
-    background-color: #232323;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-    margin-left: .85rem;
+.styleDelBtn{
+    color: blue;
+    background-color: azure;
     margin-top: 10px;
-    
+    margin-left: 10px;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+}
+.addTask{
+    color: yellow;
+    background-color: #00c;
+    font-size: 20px;
+    font-weight: 700;
+
+margin-left: 10px;
+border-radius: 5px;
+cursor:pointer;
+border: none;
 }
 
-.card-container{
-    display: flex;
-    flex-wrap: wrap;
-    
-}
+.styleInput{
+    width: 15rem;
+    height: 2rem;
 
-
-
-.card-image{
-    width: 100%;
-    
-    border-radius: 0.5rem;
-}
-.card-title{
-
-font-weight: 900px;
-/* padding-left: 10px; */
-
-}
-.card-info{
-    opacity: 0.75;
-    /* padding-left: 10px; */
-    font-size: 0.85rem;
-}
-
-.music-player{
-position: fixed;
-bottom: 0;
-right: 0rem;
-width: 100%;
-background-color: black;
-height: 3rem;
-justify-content: space-between;
-display: flex;
-
-}
-.play-button:hover{
-    opacity: 1;
-}
-.music-button img:hover{
-    opacity: 1;
-}
- #range2{
-
-     height: 1px;
-     position: relative;
-     right: 200px;
-     width: 200px;
-}
-.label1{
-    position: relative;
-    right: 200px;
-    font-size: 8px;
-}
-.label2{
-    position: relative;
-    right: 200px;
-    font-size: 8px;
-
-}
-
-  .music-button button{
-    height: 35px;
-    width: 35px;
-    border-radius: 50%;
-   position: relative;
-   bottom: 0px;
-   align-items: center;
-   justify-content: center;
-
-  }  
-   .player-button img{
-    height: 5px;
-    width: 5px;
-    background-color: #000;
-    border-radius: 50%;
-    padding-left: 10px; 
-    
-  }
-  .album-image{
-    opacity: 1;
-  }
+    color: yellow;
+    background-color: #222222;
   
-
-
- .music-button img{
-
-    height: 12px;
-    width: 12px;
-    padding: .75rem;
-    opacity: 0.5;
-    align-items: center; 
-
-}
-
-.music-control{
-   
-    margin-left: 0rem;
-}
-
-.music-control img{
-    height: 20px;
-    width: 20px;
-    padding: 3px;
-    opacity: 0.75;
-}
-.music-control input{
-    width: 80px;
-    height: 2px;
-    align-items: center;
-   padding-left: 5px;
-   font-size: 10px;
-
-}
-.music-control-image:hover{
-    opacity: 1;
-}
-label{
-    font-size: 12px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #121212;
     
 }
-.music-album{
-    margin-left: 50px;
-    align-items: center;
+h1{
+    color: blue;
+    font-size: 50px;
+}
+
+.styleList{
+    color:yellow;
+    font-size: 30px;
+    font-weight: 700;
+    
+    list-style-type: start ;
+  
+}
+
+.box{
+    text-align: center;
     justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+
 }
-.music-album img{
-    height: 20px;
-    width: 20px;
-    padding: 6px;
-    opacity: 0.5;
-}
-.heart:active{
-background-color: red;
-border-radius: 50%;
-}
-span{
-    font-size: 10px;
-    position: relative;
-    top: 0px;
-    
+ul{
+    position: absolute;
+    left: 40%;
 }
 
-.footer{
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-}
-.line{
-    height: 60%;
-    width: 80%;
-    border-top: 2px solid #fff;
-    
-    position: relative;
-    right: 50px;
-    opacity: 0.4;
+body{
+    background-color: #535A3B;
 }

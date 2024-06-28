@@ -1,3 +1,3 @@
-# Spotify clone
+# TODO APP
 
-This is created by me (Arbaz khan)
+# Develope with the help of javascript
